@@ -1,7 +1,9 @@
 const express = require("express");
 const { Pool } = require("pg");
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
 //Create a new Pool instance to manage connections to PostgreSQL
 const pool = new Pool({
   user: "radhika",
@@ -48,7 +50,8 @@ app.get("/topAuthors", async (req, res) => {
       return res.status(200).json(authorSpecificCachedData);
     }
 
-    let topRevenueAuthorsQuery = `SELECT a.name, SUM(si.item_price * si.quantity) AS total_revenue 
+    //fetching the name as well as email of the author for displaying on UI
+    let topRevenueAuthorsQuery = `SELECT a.name, a.email, SUM(si.item_price * si.quantity) AS total_revenue 
     FROM authors a JOIN books b on a.id = b.author_id 
     JOIN sale_items si on b.id = si.book_id`;
 
@@ -59,8 +62,8 @@ app.get("/topAuthors", async (req, res) => {
       queryParams.push(authorName);
     }
 
-    topRevenueAuthorsQuery += ` GROUP BY a.name 
-    ORDER BY total_revenue 
+    topRevenueAuthorsQuery += ` GROUP BY a.name, a.email 
+    ORDER BY total_revenue DESC
     LIMIT 10`;
 
     //execute the query
