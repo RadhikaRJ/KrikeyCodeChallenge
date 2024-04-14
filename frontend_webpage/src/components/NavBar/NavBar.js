@@ -9,9 +9,9 @@ const NavBar = () => {
       <div className="navbar-content-container">
         <div className="logo-container">
           <div className="krikeyAILogo">
-            <img src={vector9} className="vector9" />
-            <img src={vector11} className="vector11" />
-            <img src={vector10} className="vector10" />
+            <img src={vector9} className="vector9" alt="vector9" />
+            <img src={vector11} className="vector11" alt="vector11" />
+            <img src={vector10} className="vector10" alt="vector10" />
           </div>
         </div>
         <div className="menu-container">
