@@ -23,8 +23,6 @@
 }
 
 .logo-container{
- 
-border:2px solid blue;
 width: 48px;
 height: 48px;
 padding: 1.33px 0px 1.09px 0px;
@@ -32,6 +30,29 @@ gap: 0px;
 opacity: 0px;
 
 }
+
+.krikeyAILogo {
+    position: relative;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .vector9,
+  .vector10,
+  .vector11 {
+    position: absolute;
+  }
+
+  .vector10 {
+    top: 0px; /* Adjust as needed */
+    left: 0px; /* Adjust as needed */
+  }
+  
+  .vector11 {
+    top: 16px; /* Adjust as needed */
+    left: 8px; /* Adjust as needed */
+  }
+  
 
 .menu-container{
     

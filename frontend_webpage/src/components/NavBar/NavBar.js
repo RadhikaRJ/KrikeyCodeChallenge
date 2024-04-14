@@ -1,11 +1,19 @@
 import "./Navbar.css";
 import chevrondown from "../../assets/chevron-down.svg";
-
+import vector10 from "../../assets/Vector10.png";
+import vector9 from "../../assets/Vector9.png";
+import vector11 from "../../assets/Vector11.png";
 const NavBar = () => {
   return (
     <div className="navbar-container">
       <div className="navbar-content-container">
-        <div className="logo-container"></div>
+        <div className="logo-container">
+          <div className="krikeyAILogo">
+            <img src={vector9} className="vector9" />
+            <img src={vector11} className="vector11" />
+            <img src={vector10} className="vector10" />
+          </div>
+        </div>
         <div className="menu-container">
           <div className="item1">
             <button className="button button1">How to Animate</button>
