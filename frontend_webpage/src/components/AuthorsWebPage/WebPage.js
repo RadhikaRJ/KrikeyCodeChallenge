@@ -52,7 +52,7 @@ const WebPage = () => {
 
     //Call to the getData function
     getData();
-  }, []); // setting the dependency array as empty so that the effect runs only once when the component mounts
+  }, [staticData]);
   return (
     <div className="frame18-container">
       <div className="frame17-container">
