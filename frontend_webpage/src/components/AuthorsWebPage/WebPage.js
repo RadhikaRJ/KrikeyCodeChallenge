@@ -7,30 +7,7 @@ import "./webpage.css";
 const WebPage = () => {
   //Define state to store the fetched data
   const [data, setData] = useState(null);
-  const staticData = [
-    {
-      name: "Lorelai Gilmore",
-      email: "lorelai@example.com",
-      total_revenue: "$1,300.00",
-    },
-    { name: "Aragorn", email: "aragorn@example.com", total_revenue: "$960.00" },
-    { name: "Gimli", email: "gimli@example.com", total_revenue: "$900.00" },
-    { name: "Sauron", email: "sauron@example.com", total_revenue: "$840.00" },
-    { name: "Saruman", email: "saruman@example.com", total_revenue: "$660.00" },
-    { name: "Elrond", email: "elrond@example.com", total_revenue: "$480.00" },
-    { name: "Gollum", email: "gollum@example.com", total_revenue: "$400.00" },
-    {
-      name: "Frodo Baggins",
-      email: "frodo@example.com",
-      total_revenue: "$280.00",
-    },
-    { name: "Ron Weasley", email: "ron@example.com", total_revenue: "$240.00" },
-    {
-      name: "Galadriel",
-      email: "galadriel@example.com",
-      total_revenue: "$230.00",
-    },
-  ];
+
   useEffect(() => {
     //fetching data from the API endpoint
     const getData = async () => {
@@ -42,7 +19,58 @@ const WebPage = () => {
           const response = await axios.get("http://localhost:3000/topAuthors");
           setData(response.data);
         } else {
-          setData(staticData);
+          setData([
+            {
+              name: "Lorelai Gilmore",
+              email: "lorelai@example.com",
+              total_revenue: "$1,300.00",
+            },
+            {
+              name: "Aragorn",
+              email: "aragorn@example.com",
+              total_revenue: "$960.00",
+            },
+            {
+              name: "Gimli",
+              email: "gimli@example.com",
+              total_revenue: "$900.00",
+            },
+            {
+              name: "Sauron",
+              email: "sauron@example.com",
+              total_revenue: "$840.00",
+            },
+            {
+              name: "Saruman",
+              email: "saruman@example.com",
+              total_revenue: "$660.00",
+            },
+            {
+              name: "Elrond",
+              email: "elrond@example.com",
+              total_revenue: "$480.00",
+            },
+            {
+              name: "Gollum",
+              email: "gollum@example.com",
+              total_revenue: "$400.00",
+            },
+            {
+              name: "Frodo Baggins",
+              email: "frodo@example.com",
+              total_revenue: "$280.00",
+            },
+            {
+              name: "Ron Weasley",
+              email: "ron@example.com",
+              total_revenue: "$240.00",
+            },
+            {
+              name: "Galadriel",
+              email: "galadriel@example.com",
+              total_revenue: "$230.00",
+            },
+          ]);
         }
       } catch (error) {
         console.log("Error fetching data:", error.message);
