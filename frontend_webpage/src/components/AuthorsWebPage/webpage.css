@@ -1,7 +1,4 @@
-
 .frame18-container{
-  
-  
     width:588px;
     height: 744px;
     top:-291px;
@@ -11,19 +8,34 @@
     gap:8px;
     background-color: #FFFFFF;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    box-shadow: 0px 2px 6px -2px #0000000F;
+    box-shadow: 0px 8px 12px -2px #00000014;
 
 }
 .frame16-container{
+    
+
     width: 564px;
     height: 672px;
+    gap:0px;
     border-radius:8px ;
+    opacity: 0px;
+    overflow-y: auto; 
+    background: #FFFFFF;
+  
 }
 .frame17-container{
+    margin:8px;
+   
     display: flex;
     width:361px;
     height: 32px;
     justify-content: space-between;
+    
+   
 }
 .arrowLeft{
     width: 32px;

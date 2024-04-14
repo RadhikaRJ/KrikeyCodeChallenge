@@ -1,8 +1,183 @@
 .navbar-container{
-    width:1440px;
+   width:1440px;
     height: 80px;
     top:-491px;
     left:-741px;
     padding:16px,0px,16px,0px;
     gap:16px;
+    opacity: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-content-container{
+    width: 1216px;
+    height: 48px;
+    gap: 16px;
+    opacity: 0px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-container{
+ 
+border:2px solid blue;
+width: 48px;
+height: 48px;
+padding: 1.33px 0px 1.09px 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.menu-container{
+    
+    width: 1033px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px; 
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+   
+}
+
+
+.item1, .item6, .item7, .item8, .item2, .item5{
+    width: 190px;
+    padding: 10px 0px 10px 9px;
+    opacity: 0px;
+    display: flex;
+    gap:3px;
+   
+    align-items: flex-start;
+  
+
+}
+
+.item6{
+    width:135px;
+
+}
+
+.item7{
+   width: 143px
+}
+
+
+.item8{
+    width: 165px;
+}
+
+.item2{
+    width:87px
+}
+
+.item5{
+    width:106px;
+}
+
+
+.button{
+
+
+height: 24px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+
+border-color: transparent;
+
+background: #FFFFFF;
+
+
+}
+
+.button1{
+    width:126px;
+}
+.button6{
+    width:71px;
+}
+.button7{
+    width:79px;
+}
+.button8{
+    width:101px;
+}
+.button2{
+    width:55px;
+}
+.button5{
+    width:80px;
+}
+
+.badge-container{
+    width: 24px;
+    height: 23px;
+   
+    gap: 0px;
+    opacity: 0px;
+
+   justify-content: flex-start;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+    
+}
+
+.chevrondown{
+ 
+    width: 36px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000000;
+
+}
+
+
+
+
+
+
+.navbarTrailingContent-container{
+width: 103px;
+height: 40px;
+gap: 32px;
+opacity: 0px;
+
+
+}
+
+.trailNavButton{
+    width:103px;
+    height:40px;
+    padding:12px;
+    gap:0px;
+    border-radius:8px;
+    opacity: 0px;
+    background: linear-gradient(89.82deg, #4B42D7 0.12%, #12ACBA 99.82%);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+  color:#FFFFFF;
+  border-color: transparent;
+
+
 }

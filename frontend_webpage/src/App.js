@@ -5,11 +5,12 @@ import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
-    <>
+    <div className="App-container">
       <NavBar />
-
-      <WebPage />
-    </>
+      <div className="rectangle-container">
+        <WebPage />
+      </div>
+    </div>
   );
 }
 
