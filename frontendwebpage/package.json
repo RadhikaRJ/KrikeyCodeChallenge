@@ -1,5 +1,6 @@
 {
-  "name": "frontend_webpage",
+  "name": "frontendwebpage",
+  "homepage":"https://RadhikaRJ.github.io/KrikeyCodeChallenge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
