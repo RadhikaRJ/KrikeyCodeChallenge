@@ -1,8 +1,8 @@
 import "./Navbar.css";
-import chevrondown from "../../assets/chevron-down.svg";
-import vector10 from "../../assets/Vector10.png";
-import vector9 from "../../assets/Vector9.png";
-import vector11 from "../../assets/Vector11.png";
+import chevrondown from "../../../public/assets/chevron-down.svg";
+import vector10 from "../../../public/assets/Vector10.png";
+import vector9 from "../../../public/assets/Vector9.png";
+import vector11 from "../../../public/assets/Vector11.png";
 const NavBar = () => {
   return (
     <div className="navbar-container">

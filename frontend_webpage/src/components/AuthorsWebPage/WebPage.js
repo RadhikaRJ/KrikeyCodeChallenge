@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ListItem from "../ListItem/ListItem";
-import arrowLeft from "../../assets/arrowleft.svg";
+import arrowLeft from "../../../public/assets/arrowleft.svg";
 import "./webpage.css";
 
 const WebPage = () => {
