@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/KrikeyCodeChallenge/static/css/main.ef3e8466.css",
+    "main.js": "/KrikeyCodeChallenge/static/js/main.2e0816e7.js",
+    "static/js/453.7d677ed7.chunk.js": "/KrikeyCodeChallenge/static/js/453.7d677ed7.chunk.js",
+    "static/media/avatar.svg": "/KrikeyCodeChallenge/static/media/avatar.dea5db8585abdd9195ee.svg",
+    "static/media/closeCircle.svg": "/KrikeyCodeChallenge/static/media/closeCircle.8f7dc38161994cf48e5adced381252d9.svg",
+    "index.html": "/KrikeyCodeChallenge/index.html",
+    "static/media/chevron-down.svg": "/KrikeyCodeChallenge/static/media/chevron-down.01f447c3a66afa169668a1def9e78a27.svg",
+    "static/media/arrowleft.svg": "/KrikeyCodeChallenge/static/media/arrowleft.0b27138018d7f3d3136a074593a859d0.svg",
+    "main.ef3e8466.css.map": "/KrikeyCodeChallenge/static/css/main.ef3e8466.css.map",
+    "main.2e0816e7.js.map": "/KrikeyCodeChallenge/static/js/main.2e0816e7.js.map",
+    "453.7d677ed7.chunk.js.map": "/KrikeyCodeChallenge/static/js/453.7d677ed7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef3e8466.css",
+    "static/js/main.2e0816e7.js"
+  ]
+}
