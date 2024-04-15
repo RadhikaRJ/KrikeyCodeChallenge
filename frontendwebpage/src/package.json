@@ -1,6 +1,6 @@
 {
   "name": "frontendwebpage",
-  "homepage":"https://RadhikaRJ.github.io/KrikeyCodeChallenge",
+  "homepage": "https://RadhikaRJ.github.io/KrikeyCodeChallenge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.0"
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
+    "gh-pages": "^6.1.1"
   },
   "scripts": {
     "predeploy": "npm run build",
